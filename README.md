@@ -1,1 +1,305 @@
-# my-websiteiambairisumanth
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bairi Sumanth - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .vanta-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <div id="vanta-bg" class="vanta-bg"></div>
+
+    <!-- Header Section -->
+    <header class="relative z-10 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col items-center text-center" data-aos="fade-down">
+                <img src="SUMANTH PHOTO.jpg" alt="Bairi Sumanth" class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg">
+                <h1 class="mt-6 text-4xl font-bold text-gray-900">BAIRI SUMANTH</h1>
+                <p class="mt-2 text-xl gradient-text font-medium">B.Tech CSE-AIML(CSM)</p>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white bg-opacity-90 backdrop-blur-sm">
+        <div class="max-w-4xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/3" data-aos="fade-right">
+                    <img src="SUMANTH.png" alt="About Me" class="rounded-lg shadow-xl w-full">
+                </div>
+                <div class="md:w-2/3" data-aos="fade-left">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">About Me</h2>
+                    <p class="mt-2 text-gray-600">BAIRI SUMANTH
+                        <BR>S/O BAIRI LALITHA-RAMESH
+                        <BR> CHENJARLA, MANAKONDUR, KARIMNAGAR, TELANGANA, INDIA</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-100 bg-opacity-90">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12" data-aos="fade-up">Education & Certifications</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- B.Tech -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                            <i data-feather="book" class="text-blue-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">B.Tech CSE-AIML(CSM)</h3>
+                    </div>
+                    <p class="text-gray-600 mb-2">SREE CHAITANYA INSTITUTE OF TECHNOLOGICAL SCIENCES</p>
+                    <p class="text-gray-500 text-sm">LMD Colony, Thimmapur, Karimnagar</p>
+                    <p class="mt-3 text-gray-700">1-1 CGPA: 8.75</p>
+                </div>
+
+                <!-- Intermediate -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-purple-100 p-3 rounded-full mr-4">
+                            <i data-feather="award" class="text-purple-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Intermediate (11th-12th)</h3>
+                    </div>
+                    <p class="text-gray-600 mb-2">ALPHORES JUNIOR COLLEGE</p>
+                    <p class="text-gray-500 text-sm">Kothapally, Karimnagar</p>
+                    <p class="mt-3 text-gray-700">Secured Marks: 945/1000</p>
+                </div>
+
+                <!-- SSC -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 p-3 rounded-full mr-4">
+                            <i data-feather="layers" class="text-green-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">SSC (10th Class)</h3>
+                    </div>
+                    <p class="text-gray-600 mb-2">MAHATHMA JYOTHI BA PULE TELANGANA BACKWARD CLASSES WELFARE RESIDENTIAL SCHOOL</p>
+                    <p class="text-gray-500 text-sm">Rama Krishna Colony, Karimnagar</p>
+                    <p class="mt-3 text-gray-700">GPA: 9.3/10CGPA</p>
+                </div>
+
+                <!-- Certifications -->
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover transition-all duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                            <i data-feather="file-text" class="text-yellow-600"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Certifications</h3>
+                    </div>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="mr-2 text-green-500"></i>
+                            <span>PGDCA (Post Graduate Diploma in Computer Application)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="mr-2 text-green-500"></i>
+                            <span>MAGIC BUS INDIA FOUNDATION SOFT SKILLS</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="mr-2 text-green-500"></i>
+                            <span>IMPACT CERTIFIED TRAINER</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white bg-opacity-90">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12" data-aos="fade-up">Skills & Proficiencies</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Technical Skills -->
+                <div data-aos="fade-right">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="code" class="mr-2 text-blue-500"></i> Technical Skills
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-medium text-gray-700">Programming Languages</h4>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">C</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">C++</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Python</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">R</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Java</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">JavaScript</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">HTML/CSS</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-700">Software & Tools</h4>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Microsoft Office</span>
+                                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Word</span>
+                                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Excel</span>
+                                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">PowerPoint</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages & Soft Skills -->
+                <div data-aos="fade-left">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="globe" class="mr-2 text-green-500"></i> Languages & Soft Skills
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <h4 class="font-medium text-gray-700">Languages Known</h4>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">English</span>
+                                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Telugu</span>
+                                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Hindi</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-700">Professional Skills</h4>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Soft Skills</span>
+                                <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Resume Building</span>
+                                <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Group Discussion</span>
+                                <span class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm">Motivational Training</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-purple-50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12" data-aos="fade-up">Connect With Me</h2>
+
+            <div class="bg-white rounded-xl shadow-lg p-8" data-aos="zoom-in">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="flex items-center mb-6">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i data-feather="user" class="text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">BAIRI SUMANTH</h3>
+                                <p class="text-gray-600">B.Tech CSE-AIML(CSM) Student</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i data-feather="mail" class="text-gray-500 mr-3"></i>
+                                <a href="mailto:bairisumanth2006@gmail.com" class="text-gray-700 hover:text-blue-600 transition">bairisumanth2006@gmail.com</a>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-feather="phone" class="text-gray-500 mr-3"></i>
+                                <span class="text-gray-700">9032716636</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">Find Me On</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-blue-100 p-3 rounded-full text-blue-600 hover:bg-blue-200 transition">
+                                <i data-feather="linkedin"></i>
+                            </a>
+                            <a href="#" class="bg-purple-100 p-3 rounded-full text-purple-600 hover:bg-purple-200 transition">
+                                <i data-feather="github"></i>
+                            </a>
+                            <a href="#" class="bg-red-100 p-3 rounded-full text-red-600 hover:bg-red-200 transition">
+                                <i data-feather="youtube"></i>
+                            </a>
+                            <a href="#" class="bg-blue-100 p-3 rounded-full text-blue-400 hover:bg-blue-200 transition">
+                                <i data-feather="twitter"></i>
+                            </a>
+                        </div>
+
+                        <div class="mt-6">
+                            <a href="#" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:opacity-90 transition">
+                                <i data-feather="download" class="mr-2"></i> Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <p>© 2023 Bairi Sumanth. All rights reserved.</p>
+            <p class="mt-2 text-gray-400 text-sm">"TO BE HAPPY MAKE OTHERS HAPPY BE HAPPY" - ALWAYS BE SMILE</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize animations and effects
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        feather.replace();
+
+        // Vanta.js background
+        VANTA.GLOBE({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x3b82f6,
+            backgroundColor: 0xf8fafc,
+            size: 0.8
+        });
+    </script>
+</body>
+
+</html>
